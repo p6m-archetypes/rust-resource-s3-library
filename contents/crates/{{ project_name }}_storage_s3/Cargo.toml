@@ -1,0 +1,12 @@
+[package]
+name = "{{ project_name }}_storage_s3"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow = "1"
+aws-config = { version = "1", features = ["behavior-version-latest"] }
+aws-credential-types = { version = "1", features = ["hardcoded-credentials"] }
+aws-sdk-s3 = "1"
+serde = { version = "1", features = ["derive"] }
+tracing = "0.1"

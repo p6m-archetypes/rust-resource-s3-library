@@ -1,0 +1,14 @@
+---
+description: "Rust S3 Storage — aws-sdk-s3 crate for Cargo workspace services"
+summary: >
+  Generates a _storage_s3 Cargo crate with aws-sdk-s3, S3Client, and StorageS3Settings.
+  Consumed as a library by Rust service archetypes.
+authors: ["Jimmie Fulton <jimmie@ybor.ai>"]
+tags: ["library", "rust", "storage", "s3", "aws"]
+
+requires:
+  archetect: "3.0.0"
+
+templating:
+  trim_blocks: true
+  lstrip_blocks: true
